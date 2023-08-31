@@ -7,6 +7,54 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/nio/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanSegFigureFusion-jni.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libFNVfbEngineHAL_legacy.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libFNVfbEngineHAL_legacy.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNvBeautyEffect.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSNPE.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libSuperSensor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperSensor.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libSuperSensorCPU.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperSensorCPU.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libSuperSensorProcessor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperSensorProcessor.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libSuperSensorProcessorCWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperSensorProcessorCWrapper.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_hdr_scbokeh_image.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_hdr_scbokeh_image.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_multiframe_bokeh_image.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_multiframe_bokeh_image.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_scbokeh_Generic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_scbokeh_Generic.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_supernight.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_superportrait.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libas-super-slow-motion.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libbarhopper_v3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbarhopper_v3.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbg-postproc-jni.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libc++.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libc++.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libc++_shared.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcamerax_extension_jni.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libdoc-util.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdoc-util.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdynamic_depth.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libfn-beauty-vfb-legacy-base.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfn-beauty-vfb-legacy-base.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libfoundation.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfoundation.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libgg-dynamic_depth.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libgg-tensorflow-lite.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libgif.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libgif.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpeg.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblenovo_panorama.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmcf-base.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf-base.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf-jni.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf-qc-fd-offline_local.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf-stand-alone-sm.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmeishe-nv-effects-thumbnails.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmeishe-nv-effects-thumbnails.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmorpho_cinema_graph.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmorpho_panorama_gp3.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmorpho_panorama_gp3_core.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmorpho_panorama_gp3_core.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmorpho_sensor_fusion.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmot-cinemagraph-engine.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmot-util.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmot-util.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmpbase.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqc-snpe.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libsmart_ppt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsmart_ppt.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtensorflowlite.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libtensorflowlite_gpu_delegate.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtensorflowlite_gpu_delegate.so \
+    vendor/motorola/nio/proprietary/system_ext/lib64/libtiff.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtiff.so \
     vendor/motorola/nio/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/nio/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
     vendor/motorola/nio/proprietary/vendor/bin/fpc_ident:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_ident \
@@ -179,4 +227,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    com.android.hotwordenrollment.common.util
+    MotCamera3AI \
+    MotCamera3 \
+    com.motorola.motosignature \
+    com.android.hotwordenrollment.common.util \
+    com.motorola.camera3.content.ai \
+    com.motorola.camera3.nio \
+    com.motorola.camera3 \
+    com.motorola.motosignature \
+    privapp-permissions-com.motorola.camera3 \
+    hiddenapi-whitelist-com.motorola.camera3
